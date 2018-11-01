@@ -31,7 +31,7 @@ import {
     BookEditComponent
   ],
   imports: [
-    RouterModule.forRoot(appRoutes),
+    RouterModule.forRoot(appRoutes, {useHash: true, enableTracing: true}),
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
